@@ -1,12 +1,13 @@
 import styles from "./header.module.css";
-import myImage from "../src/assets/letter-h_17966868.png";
+import hLtter from "../../assets/letter-h_17966868.png";
+
 function Header({show:hh}){
     return (
         <>
         <div className={styles.header}>
             <div className={styles.left_side_of_header}>
                 <div className={styles.logoContainer}>
-                    <img src={myImage} alt="LOGO_pic" />
+                    <img src={hLtter} alt="LOGO_pic" />
                     </div>
             </div>
             <div className={styles.right_side_of_header}>

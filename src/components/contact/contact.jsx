@@ -1,4 +1,7 @@
 import styles from "./contact.module.css";
+import linkedinPic from "../../assets/linkedin logo.png";
+import instagramPic from "../../assets/instagram.png";
+import twitterPic from "../../assets/twitter logo.png";
 function Contact(){
     return(
         <>
@@ -11,9 +14,9 @@ function Contact(){
             <br />
             <div className={styles.socialMediaConatiner}>
             <ul style={{listStyleType:"none"}}>
-                <li><a target="_blank" href="https://www.instagram.com/sky0mishra/" ><img src="/src/assets/instagram.png" alt="insta_logo"/></a></li>
-                 <li><a  target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/sky0mishra/" ><img src="/src/assets/linkedin logo.png" alt="linkedin_logo"/></a></li>
-                  <li><a target="_blank" rel="noopener noreferrer"  href="https://www.instagram.com/sky0mishra/" ><img src="/src/assets/twitter logo.png" alt="twitter_logo"/></a></li>
+                <li><a target="_blank" href="https://www.instagram.com/sky0mishra/" ><img src={instagramPic} alt="insta_logo"/></a></li>
+                 <li><a  target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/sky0mishra/" ><img src={linkedinPic} alt="linkedin_logo"/></a></li>
+                  <li><a target="_blank" rel="noopener noreferrer"  href="https://www.instagram.com/sky0mishra/" ><img src={twitterPic} alt="twitter_logo"/></a></li>
                 
 
                 
