@@ -1,0 +1,16 @@
+.socialMediaConatiner li a img{
+    height: 10%;
+    width: 10%;
+}
+.socialMediaConatiner ul li{
+    display: inline;
+    padding-right: 10rem;
+}
+
+.socialMediaConatiner{
+    height: 40%;
+    width: 100%;
+}
+a{
+    color: black;
+}

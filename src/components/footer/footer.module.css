@@ -1,0 +1,11 @@
+.footer{
+    font-size: x-small;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+.copyright{
+    align-self: flex-end;
+}
