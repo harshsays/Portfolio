@@ -7,7 +7,7 @@ function Header({show:hh}){
         <div className={styles.header}>
             <div className={styles.left_side_of_header}>
                 <div className={styles.logoContainer}>
-                    <img src="../../../public/letter-h_17966868.png" alt="LOGO_pic" />
+                    <img src="/letter-h_17966868.png" alt="LOGO_pic" />
                     </div>
             </div>
             <div className={styles.right_side_of_header}>
