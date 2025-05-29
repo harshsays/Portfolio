@@ -1,5 +1,5 @@
 import styles from "./header.module.css";
-import hLtter from "../../assets/letter-h_17966868.png";
+
 
 function Header({show:hh}){
     return (
@@ -7,7 +7,7 @@ function Header({show:hh}){
         <div className={styles.header}>
             <div className={styles.left_side_of_header}>
                 <div className={styles.logoContainer}>
-                    <img src={hLtter} alt="LOGO_pic" />
+                    <img src="/public/letter-h_17966868.png" alt="LOGO_pic" />
                     </div>
             </div>
             <div className={styles.right_side_of_header}>
