@@ -11,9 +11,9 @@ function Contact(){
             <br />
             <div className={styles.socialMediaConatiner}>
             <ul style={{listStyleType:"none"}}>
-                <li><a target="_blank" href="https://www.instagram.com/sky0mishra/" ><img src="/instagram.webp" alt="insta_logo"/></a></li>
-                 <li><a  target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/sky0mishra/" ><img src="/linkedin-logo.webp" alt="linkedin_logo"/></a></li>
-                  <li><a target="_blank" rel="noopener noreferrer"  href="https://www.instagram.com/sky0mishra/" ><img src="/twitter-logo.webp" alt="twitter_logo"/></a></li>
+                <li><a target="_blank" href="https://www.instagram.com/sky0mishra/" ><img src="/instagram.webp" loading="lazy" alt="insta_logo"/></a></li>
+                 <li><a  target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/sky0mishra/" ><img src="/linkedin-logo.webp" loading="lazy" alt="linkedin_logo"/></a></li>
+                  <li><a target="_blank" rel="noopener noreferrer"  href="https://www.instagram.com/sky0mishra/" ><img src="/twitter-logo.webp" loading="lazy" alt="twitter_logo"/></a></li>
                 
 
                 
