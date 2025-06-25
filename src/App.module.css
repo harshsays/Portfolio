@@ -1,0 +1,22 @@
+
+ #container{
+  height: 100%;
+  width: 100%;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+} 
+
+#menuContainer{
+  height: auto;
+  width: auto;
+}
+
+#contentContainer{
+  height: 90%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

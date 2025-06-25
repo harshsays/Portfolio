@@ -1,0 +1,22 @@
+:root{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+*{
+  padding: 0px;
+  margin: 0px;
+  overflow-x: 0px;
+  overflow-y: 0px;
+}
+#root{
+  height: 100vh;
+  width: 100vw;
+}
+
+#inside_root{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  display: flex;
+}
+
