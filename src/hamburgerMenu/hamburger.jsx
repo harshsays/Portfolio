@@ -15,8 +15,7 @@ class Hamburger extends Component{
         return (
             <>
            <img style={{height:"3rem" ,width:"3rem",cursor:"grab" ,position: "absolute", zindex: 1}} src={hamburger}></img>
-            {this.props.show?<ul style={{borderRadius:"1rem", backgroundColor:"rgb(0, 0, 0)",color:"white" ,position: "absolute", zindex: 2 ,marginTop:"4em" ,marginLeft:"4em",listStyleType:"none"
-}}>
+            {this.props.show?<ul  className={styles.hamburgerList}>
                 <li onClick={()=>(this.props.setContentType("ABOUT"))}>About</li>
                 <hr />
                 <li onClick={()=>(this.props.setContentType("SKILLS"))}>Skills</li>

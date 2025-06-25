@@ -1,11 +1,23 @@
-ul li{
+.hamburgerList li{
     color:rgba(121, 53, 230, 0.582);
     font-size: 2rem;
     margin: 1rem;
     cursor: grabbing;
 }
 
-ul hr{
+.hamburgerList hr{
     width: 2rem;
     background-color: rgba(121, 53, 230, 0.582);
+}
+
+.hamburgerList{
+    border-Radius:1rem;
+     background-Color:rgb(0, 0, 0);
+     color:white ;
+     position: absolute;
+     z-index: 2 ;
+     margin-Top:4em ;
+     margin-Left:4em;
+     list-style-type:none
+
 }
